@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/slider-block",
+  "version": "0.1.0",
+  "title": "Andiro Slider Block",
+  "category": "andiro",
+  "icon": "slides",
+  "description": "Slider block based on Flickity v2.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "showOverlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "dots": {
+      "type": "boolean",
+      "default": true
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "freeScroll": {
+      "type": "boolean",
+      "default": false
+    },
+    "draggable": {
+      "type": "boolean",
+      "default": false
+    },
+    "wrapAround": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoPlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoPlaySpeed": {
+      "type": "number",
+      "default": 2000
+    },
+    "speed": {
+      "type": "number",
+      "default": 1000
+    },
+    "minHeight": {
+      "type": "number",
+      "default": 600
+    },
+    "aspectRatio": {
+      "type": "string",
+      "default": "auto"
+    },
+    "scale": {
+      "type": "string",
+      "default": "cover"
+    },
+    "slides": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "textdomain": "andiro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
