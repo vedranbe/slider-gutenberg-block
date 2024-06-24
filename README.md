@@ -1,2 +1,2 @@
-# slider-gutenberg-block
-Slider Gutenberg Block
+# Slider Gutenberg Block
+Gutenberg Block using Flickity (https://flickity.metafizzy.co/)
